@@ -1,0 +1,48 @@
+.countries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 24px;
+  padding: 20px;
+}
+
+.country-card {
+  height: 100%; 
+  transition: transform 0.2s; 
+}
+
+.country-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+
+.country-card img {
+  height: 160px;
+  object-fit: cover; 
+}
+
+.filters-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;           
+  flex-wrap: wrap;              
+  gap: 40px;
+  padding: 20px 40px;           
+}
+
+.select-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.select-wrapper h4 {
+  margin: 40px;
+  white-space: nowrap; 
+}
+
+.search-field {
+  width: 100%;
+  max-width: 400px;
+}
