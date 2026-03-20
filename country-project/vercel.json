@@ -1,4 +1,5 @@
 {
+    "outputDirectory": "dist/country-project/browser",
     "rewrites": [
         {
             "source": "/(.*)",
